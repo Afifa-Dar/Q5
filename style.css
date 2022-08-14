@@ -1,0 +1,29 @@
+#head{
+    border: 1px solid;
+    width: fit-content; 
+    display: inline;
+    text-align:center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 50%;
+}
+fieldset{
+    display: inline;
+    width: 50%;
+    
+}
+.sideBox{
+    position:absolute;
+    left : 300px;
+    border: 1px solid;
+    width: 25%;
+}
+.sideBox2{
+    position:absolute;
+    left : 300px;
+    top : 180px;
+    border: 1px solid;
+    width: 25%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question5 form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="myForm" action="">
+        <fieldset>
+            <legend id="head">Edit and Work Details</legend>
+            <legend>Title</legend>
+            <input type="text" id="title">
+            <legend>Discription</legend>
+            <input type="text" id="disc">
+            <div class="sideBox">
+                <legend>Type</legend>
+                <input type="radio" name="Type"><label>painting</label><br>
+                <input type="radio" name="Type"><label>Sculpture</label>
+
+            </div>
+            <div class="sideBox2">
+                <legend>Image Creative Centre</legend>
+                <input type="checkbox" name="image"><label>Attribution</label><br>
+                <input type="checkbox" name="image"><label>Attribution</label><br>
+                <input type="checkbox" name="image"><label>Attribution</label><br>
+                <input type="checkbox" name="image"><label>Attribution</label><br>
+
+            </div>
+
+            <legend>Genure</legend>
+            <input list="generue" placeholder="choose geneure">
+            <datalist id="generue">
+                <option value="type1"></option>
+                <option value="type2"></option>
+            </datalist>
+            <legend>Subject</legend>
+            <input list="generue" placeholder="choose Subject">
+            <datalist id="generue">
+                <option value="sub1"></option>
+                <option value="sub2"></option>
+            </datalist>
+            <legend>Medium</legend>
+            <input type="text">
+            <legend>Year</legend>
+            <input type="text" id="year">
+            <legend>Musium</legend>
+            <input type="text">
+            <br><br>
+            <center>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear Form</button>
+            </center>
+        </fieldset>
+
+    </form>
+    <script src="iscript.js"></script>
+
+</body>
+
+</html>
